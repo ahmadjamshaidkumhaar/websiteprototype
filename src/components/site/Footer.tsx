@@ -8,14 +8,14 @@ export function Footer() {
       <div className="container-x grid gap-10 py-16 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-3 text-white">
-            <img src={freightLogo} alt="Apex Logistics & Freight Inc logo" className="h-12 w-auto object-contain" />
+            <img src={freightLogo} alt="Twin Torches Transport LLC logo" className="h-12 w-auto object-contain" />
             <div>
-              <div className="font-display text-lg">Apex Logistics & Freight Inc</div>
-              <div className="text-[10px] uppercase tracking-[0.3em] text-white/60">MC51906956</div>
+              <div className="font-display text-lg">Twin Torches Transport LLC</div>
+              <div className="text-[10px] uppercase tracking-[0.3em] text-white/60">TAFT, CA</div>
             </div>
           </div>
           <p className="mt-4 text-sm text-white/60">
-            Reliable freight solutions moving shipments across the country with speed, precision, and service.
+            Dependable transport solutions built for drivers, shippers, and communities across the region.
           </p>
         </div>
 
@@ -40,16 +40,16 @@ export function Footer() {
         <div>
           <h4 className="text-sm text-white">Contact</h4>
           <ul className="mt-4 space-y-3 text-sm text-white/70">
-            <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-accent" /> Nationwide</li>
-            <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 text-accent" /> <a href="tel:+15623328138">(562) 332-8138</a></li>
-            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-accent" /> <a href="mailto:apexlogisticsinc91@gmail.com" className="break-all">apexlogisticsinc91@gmail.com</a></li>
+            <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-accent" /> TAFT, CA</li>
+            <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 text-accent" /> <a href="tel:+16619322675">(661) 932-2675</a></li>
+            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-accent" /> <a href="mailto:twintorchestransportllc@gmail.com" className="break-all">twintorchestransportllc@gmail.com</a></li>
           </ul>
         </div>
       </div>
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col justify-between gap-2 py-6 text-xs text-white/50 md:flex-row">
-          <p>© {new Date().getFullYear()} Apex Logistics & Freight Inc. All rights reserved.</p>
-          <p>MC51906956 · Licensed Freight Brokerage</p>
+          <p>© {new Date().getFullYear()} Twin Torches Transport LLC. All rights reserved.</p>
+          <p>Owner: Cody Reaves & Jeffery Reaves</p>
         </div>
       </div>
     </footer>

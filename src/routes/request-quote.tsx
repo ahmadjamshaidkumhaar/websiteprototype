@@ -7,8 +7,8 @@ import heroImg from "@/assets/hero-truck.jpg";
 export const Route = createFileRoute("/request-quote")({
   head: () => ({
     meta: [
-      { title: "Request a Quote — Apex Logistics & Freight Inc" },
-      { name: "description", content: "Get a fast, competitive freight quote from Apex Logistics & Freight Inc. Full truckload, LTL, reefer, flatbed and heavy haul." },
+      { title: "Request a Quote — Twin Torches Transport LLC" },
+      { name: "description", content: "Get a fast, competitive transport quote from Twin Torches Transport LLC. Reliable service for local and regional shipping needs in TAFT, CA." },
     ],
   }),
   component: QuotePage,
@@ -48,7 +48,7 @@ function QuotePage() {
               <p className="max-w-md text-muted-foreground">
                 We've got your details. A dispatcher will follow up shortly at the number/email you provided.
               </p>
-              <p className="text-sm">Need it faster? Call <a href="tel:+15623328138" className="font-semibold text-accent">(562) 332-8138</a>.</p>
+              <p className="text-sm">Need it faster? Call <a href="tel:+16619322675" className="font-semibold text-accent">(661) 932-2675</a>.</p>
             </div>
           ) : (
             <form onSubmit={onSubmit} className="space-y-8">

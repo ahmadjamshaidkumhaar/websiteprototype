@@ -35,16 +35,16 @@ function HomePage() {
         </div>
         <div className="container-x relative flex min-h-[90vh] flex-col justify-center py-24 text-white">
           <p className="animate-fade-up text-xs font-semibold uppercase tracking-[0.5em] text-accent">
-            Apex Logistics & Freight Inc · MC51906956
+            Twin Torches Transport LLC · TAFT, CA
           </p>
           <h1 className="animate-fade-up mt-6 max-w-4xl text-5xl leading-[1.05] md:text-7xl lg:text-8xl">
-            <span className="hero-navy">Moving America's </span>
-            <span className="hero-red">Freight</span>
+            <span className="hero-navy">Powering </span>
+            <span className="hero-red">Every Mile</span>
             <span className="hero-navy"> Forward.</span>
           </h1>
           <p className="animate-fade-up mt-6 max-w-2xl text-lg text-white/80 md:text-xl">
-            Apex Logistics & Freight Inc connects shippers and carriers with reliable, coast-to-coast trucking solutions —
-            backed by responsive dispatch, transparent rates and dependable service.
+            Twin Torches Transport LLC delivers dependable transport services with responsive communication, local accountability,
+            and a service-first approach built for real business needs.
           </p>
           <div className="animate-fade-up mt-10 flex flex-wrap items-center gap-4">
             <Link to="/request-quote" className="btn-accent">
@@ -126,9 +126,9 @@ function HomePage() {
             <p className="text-xs uppercase tracking-[0.4em] text-accent">Built for Moving Freight</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Built by Truckers.<br /> Powered by <span className="text-gradient-accent">People.</span></h2>
             <p className="mt-6 text-white/70">
-              Apex Logistics & Freight Inc delivers dependable logistics support with a nationwide network and a
-              service-first approach. We believe great logistics starts with honest relationships — between brokers,
-              drivers, and shippers.
+              Twin Torches Transport LLC delivers dependable transport support with a local-first approach and a
+              commitment to honest communication. We believe great service starts with strong relationships between
+              drivers, shippers, and the communities we serve.
             </p>
             <div className="mt-8 grid gap-6 sm:grid-cols-3">
               {[
