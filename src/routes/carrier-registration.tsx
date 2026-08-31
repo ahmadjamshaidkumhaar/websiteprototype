@@ -7,8 +7,8 @@ import yardImg from "@/assets/freight-yard.jpg";
 export const Route = createFileRoute("/carrier-registration")({
   head: () => ({
     meta: [
-      { title: "Carrier Registration — SEVENTH STREET SERVICES LLC" },
-      { name: "description", content: "Join the SEVENTH STREET SERVICES LLC carrier network. Register your MC/DOT and start hauling consistent, fair-paying loads." },
+      { title: "Carrier Registration — Twin Torches Transport LLC" },
+      { name: "description", content: "Join the Twin Torches Transport LLC carrier network. Register your equipment and start working with a trusted local transport company in TAFT, CA." },
     ],
   }),
   component: CarrierPage,
@@ -33,8 +33,8 @@ function CarrierPage() {
     <PageShell>
       <PageHero
         eyebrow="Carrier Portal"
-        title="Join the SEVENTH STREET SERVICES LLC Carrier Network."
-        subtitle="Consistent freight, fair pay and a broker that answers the phone."
+        title="Join the Twin Torches Transport LLC Carrier Network."
+        subtitle="Consistent freight, fair pay and a team that answers the phone."
         image={yardImg}
       />
 
@@ -58,7 +58,7 @@ function CarrierPage() {
             <div className="mt-10 rounded-lg border-l-4 border-accent bg-secondary p-6">
               <p className="text-sm">
                 Have questions before signing up? Call our carrier line at{" "}
-                <a href="tel:+19732883844" className="font-semibold text-accent">(973) 288-3844</a>.
+                 <a href="tel:+16619322675" className="font-semibold text-accent">(661) 932-2675</a>.
               </p>
             </div>
           </div>
