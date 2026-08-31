@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Menu, X, Phone } from "lucide-react";
 import { useState } from "react";
-import freightLogo from "@/assets/seventh-street-logo.png";
+import freightLogo from "@/assets/freight-logo.png";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -17,10 +17,10 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[oklch(0.17_0.008_20/0.85)] backdrop-blur-md">
       <div className="container-x flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-3 text-white">
-          <img src={freightLogo} alt="SEVENTH STREET SERVICES LLC logo" className="h-11 w-auto object-contain" />
+          <img src={freightLogo} alt="Twin Torches Transport LLC logo" className="h-11 w-auto object-contain" />
           <div className="leading-tight">
-            <div className="font-display text-lg tracking-wider">SEVENTH STREET SERVICES LLC</div>
-            <div className="text-[10px] uppercase tracking-[0.3em] text-white/60">PATERSON, NJ</div>
+            <div className="font-display text-lg tracking-wider">Twin Torches Transport LLC</div>
+            <div className="text-[10px] uppercase tracking-[0.3em] text-white/60">TAFT, CA</div>
           </div>
         </Link>
 
@@ -39,9 +39,9 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <a href="tel:+19732883844" className="flex items-center gap-2 text-sm text-white/80 hover:text-white">
+          <a href="tel:+16619322675" className="flex items-center gap-2 text-sm text-white/80 hover:text-white">
             <Phone className="h-4 w-4" />
-            (973) 288-3844
+            (661) 932-2675
           </a>
           <Link to="/request-quote" className="btn-accent hover:[--tw:0] hover:-translate-y-0.5 text-sm">
             Get Quote

@@ -7,9 +7,9 @@ import driverImg from "@/assets/driver.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — SEVENTH STREET SERVICES LLC" },
-      { name: "description", content: "Learn about SEVENTH STREET SERVICES LLC, a trusted transportation company serving PATERSON, NJ with dependable service and local accountability." },
-      { property: "og:title", content: "About SEVENTH STREET SERVICES LLC" },
+      { title: "About Us — Twin Torches Transport LLC" },
+      { name: "description", content: "Learn about Twin Torches Transport LLC, a trusted transportation company serving TAFT, CA with dependable service and local accountability." },
+      { property: "og:title", content: "About Twin Torches Transport LLC" },
       { property: "og:description", content: "Trusted transportation service built on service, transparency, and dependable support." },
     ],
   }),
@@ -29,7 +29,7 @@ function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title="A Local Transport Company Built on Trust."
-        subtitle="SEVENTH STREET SERVICES LLC is built on dependable service, strong relationships, and transportation solutions that move with precision."
+        subtitle="Twin Torches Transport LLC is built on dependable service, strong relationships, and transportation solutions that move with precision."
         image={texasImg}
       />
 
@@ -40,16 +40,16 @@ function AboutPage() {
             <h2 className="mt-3 text-4xl md:text-5xl">Founded on the Freeway.</h2>
             <div className="mt-6 space-y-4 text-muted-foreground">
               <p>
-                SEVENTH STREET SERVICES LLC was built to serve shippers and carriers with fast communication,
-                dependable execution, and freight solutions designed around real business needs.
+                Twin Torches Transport LLC was built to serve shippers and carriers with fast communication,
+                dependable execution, and transport solutions designed around real business needs.
               </p>
               <p>
-                We move freight across the country with a focus on reliability, transparency, and performance —
-                from dry vans and reefers to flatbeds and specialized freight.
+                Based in TAFT, CA, we bring a local-first mindset to transportation — focusing on reliability,
+                transparency, and personal service for every job.
               </p>
               <p>
-                Whether you're a shipper needing a trusted logistics partner or a carrier looking for consistent,
-                fair-paying opportunities — we’re here to move you forward.
+                Whether you're a business needing a trusted shipping partner or a driver looking for a company that
+                values accountability and respect — we’re here to move you forward.
               </p>
             </div>
             <Link to="/request-quote" className="mt-10 btn-accent inline-flex">
@@ -60,7 +60,7 @@ function AboutPage() {
             <img src={driverImg} alt="Truck driver beside semi truck" loading="lazy" width={1200} height={1400} className="rounded-lg object-cover shadow-[var(--shadow-elegant)]" />
             <div className="absolute -bottom-6 -right-6 max-w-xs rounded-lg bg-[oklch(0.17_0.008_20)] p-6 text-white shadow-[var(--shadow-elegant)]">
               <p className="font-display text-lg leading-tight">"Reliable freight. Real communication. Results that keep moving."</p>
-              <p className="mt-3 text-xs uppercase tracking-[0.3em] text-accent">— SEVENTH STREET SERVICES LLC</p>
+              <p className="mt-3 text-xs uppercase tracking-[0.3em] text-accent">— Twin Torches Transport LLC</p>
             </div>
           </div>
         </div>
@@ -93,18 +93,26 @@ function AboutPage() {
               <p className="text-xs uppercase tracking-[0.4em] text-accent">Get in Touch</p>
               <h2 className="mt-3 text-3xl">Talk to a Human.</h2>
             </div>
-            <div className="md:col-span-2 grid gap-6 sm:grid-cols-3">
+            <div className="md:col-span-2 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <div>
                 <div className="text-xs uppercase tracking-wider text-white/50">Company</div>
-                <div className="mt-1 text-lg">SEVENTH STREET SERVICES LLC</div>
+                <div className="mt-1 text-lg">Twin Torches Transport LLC</div>
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider text-white/50">Location</div>
+                <div className="mt-1 text-lg">TAFT, CA</div>
+              </div>
+              <div>
+                <div className="text-xs uppercase tracking-wider text-white/50">Owner</div>
+                <div className="mt-1 text-lg">Cody Reaves & Jeffery Reaves</div>
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-white/50">Phone</div>
-                <a href="tel:+19732883844" className="mt-1 block text-lg hover:text-accent">(973) 288-3844</a>
+                <a href="tel:+16619322675" className="mt-1 block text-lg hover:text-accent">(661) 932-2675</a>
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-white/50">Email</div>
-                <a href="mailto:seventhstreetservicesllc@gmail.com" className="mt-1 block text-lg hover:text-accent break-all">seventhstreetservicesllc@gmail.com</a>
+                <a href="mailto:twintorchestransportllc@gmail.com" className="mt-1 block text-lg hover:text-accent break-all">twintorchestransportllc@gmail.com</a>
               </div>
             </div>
           </div>
