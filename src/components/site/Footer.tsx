@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, Phone, MapPin } from "lucide-react";
-import freightLogo from "@/assets/seventh-street-logo.png.png";
+import freightLogo from "@/assets/seventh-street-logo.png";
 
 export function Footer() {
   return (
